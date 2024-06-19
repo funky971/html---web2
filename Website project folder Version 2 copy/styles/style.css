@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bassa+Vah:wght@500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+  min-height: 100vh;
+  background: url('/images/IMG_1582.JPG') no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+li,a, button {
+  font-family: 'Noto Sans Bassa Vah', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,.1);
+  backdrop-filter: blur(30px);
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+ }
+
+.logo {
+  font-size: 55px;
+ cursor: pointer;
+ -webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: black;
+}
+
+.nav__links {
+  flex-direction: column;
+  list-style: none;
+}
+
+.nav__links li {
+  margin: 80px;
+  display: inline-block;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: rgba(0,136,169,.8);;
+}
+
+button {
+  margin-right: 30px;
+  padding: 9px 25px;
+  background-color: rgba(0,0,0,.1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0,136,169,.8);
+}
+
+h2 {
+  padding-top: 220px;
+  font-size: 50px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h3 {
+  font-size: 40px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

@@ -1,0 +1,201 @@
+body {
+    min-height: 100vh;
+    background-color: #CDFAD5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  
+  li,a, button {
+    font-family: 'Noto Sans Bassa Vah', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.1);
+    backdrop-filter: blur(30px);
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   }
+  
+  .logo {
+    font-size: 55px;
+   cursor: pointer;
+   -webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: black;
+  }
+  
+  .nav__links {
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .nav__links li {
+    
+    margin: 80px;
+    display: inline-block;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: rgba(0,136,169,.8);;
+  }
+  
+  button {
+    margin-right: 30px;
+    padding: 9px 25px;
+    background-color: rgba(0,0,0,.1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  button:hover {
+    background-color: rgba(0,136,169,.8);
+  }
+
+ h2{
+  text-align: center;
+  position: relative;
+  padding-top: 50px; 
+  margin-left:auto;
+  margin-right:auto;
+  color:black;
+  font-size: 44px;
+  font-family: 'Mohave', sans-serif;
+  text-decoration: none;
+   }
+
+   .schedule {
+    width: 6em;
+    border: 2px solid #333;
+    border-radius: 14px;
+    text-align: center;
+    font-size:26px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 7px 1px;
+    cursor: pointer;
+    background: whitesmoke;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    }
+
+    .facebook {
+     width: 6em;
+     border: 2px solid #333;
+     border-radius: 14px;
+     text-align: center;
+     font-size:26px;
+     font-family: 'Roboto', sans-serif;
+     color: black;
+     padding: 7px 1px;
+     cursor: pointer;
+     background: whitesmoke;
+     position: relative;
+     margin-left:auto;
+     margin-right:auto;
+     left: 0px;
+     display: flex;
+     justify-content: center;
+     margin-top: 40px;
+    
+     }
+
+   .youtube {
+     width: 6em;
+     border: 2px solid #333;
+     border-radius: 14px;
+     text-align: center;
+     font-size:26px;
+     font-family: 'Roboto', sans-serif;
+     color: black;
+     padding: 7px 1px;
+     cursor: pointer;
+     background: whitesmoke;
+     position: relative;
+     margin-left:auto;
+     margin-right:auto;
+     left: 0px;
+     display: flex;
+     justify-content: center;
+     margin-top: 60px;
+
+      }
+
+    h4 {
+      padding-top: 40px;
+       text-align: center;
+       text-decoration: underline;
+       position: relative;
+       margin-left: auto;
+       margin-right: auto;
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px ;
+    }
+
+      .flex-container{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex-box{
+        width: 540px;
+        height:440px;
+        background: #F6FDC3;
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 22px;
+        line-height: 29px;
+        border-radius: 15px;
+        border:solid black;
+        margin: 28px;
+        margin-left: 25px;
+        margin-right: 25px;
+        
+    }
+
+   h1 {
+    text-align: center;
+    position: relative; 
+    margin-left:auto;
+    margin-right:auto;
+    /*left: 750px; */
+    color:black;
+    font-size: 28px;
+    font-family: font-family,'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+   }
+
+
+p {
+  font-size: 18px;
+}

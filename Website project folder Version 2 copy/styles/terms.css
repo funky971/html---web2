@@ -1,0 +1,25 @@
+body {
+    background-color: #CDFAD5;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    
+     text-align: center;
+     position: relative; 
+     margin-left:auto;
+     margin-right:auto;
+     color:black;
+     font-size: 18px;
+     font-family: font-family, 'Libre Baskerville', serif;
+     padding-bottom: 40px;
+    }
+
+p {
+    text-align: center;
+}
